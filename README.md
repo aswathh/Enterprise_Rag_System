@@ -12,10 +12,9 @@ An AI-powered document Q&A system. Upload PDFs and ask questions — get accurat
 
 ## ⚙️ Installation
 
-### 1. Clone the Repository
+### 1. Change to your current directory
 
 ```bash
-git clone https://github.com/yourusername/enterprise-rag-system.git
 cd enterprise-rag-system
 ```
 
