@@ -58,6 +58,25 @@ Get your free Groq API key at [console.groq.com](https://console.groq.com)
 streamlit run src/app.py
 ```
 
+# Docker Setup – Enterprise RAG System
+
+## Prerequisites
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/) installed and running
+- .env file with your API keys in the project root
+
+## Environment Variables
+Create a .env file in the root directory:
+
+## Build the Image
+```bash
+docker build -t enterprise-rag-system .
+```
+## Run the container
+```bash
+docker run -d -p 8501:8501 --name rag-app --env-file .env enterprise-rag-system
+```
+
+# Access the App
 Open browser at: http://localhost:8501/
 
 
