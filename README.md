@@ -71,10 +71,13 @@ Create a .env file in the root directory:
 ```bash
 docker build -t enterprise-rag-system .
 ```
+![alt text](image-2.png)
+
 ## Run the container
 ```bash
 docker run -d -p 8501:8501 --name rag-app --env-file .env enterprise-rag-system
 ```
+![alt text](image-1.png)
 
 # Access the App
 Open browser at: http://localhost:8501/
