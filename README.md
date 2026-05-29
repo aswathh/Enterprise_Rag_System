@@ -98,5 +98,10 @@ kubectl get pods
 ```bash
 kubectl get service
 ```
+## for to see in the port we need to give the port forward command
+
+```bash
+kubectl port-forward service/enterprise-service 8052:8052
+```
 
 
