@@ -81,4 +81,22 @@ docker run -d -p 8501:8501 --name rag-app --env-file .env enterprise-rag-system
 # Access the App
 Open browser at: http://localhost:8501/
 
+## K8S
+## create deployment.yaml file 
+```bash
+kubectl apply -f Deployment.yaml
+```
+```bash
+kubectl delete -f Deployment.yaml
+```
+```bash
+kubectl get nodes
+```
+```bash
+kubectl get pods
+```
+```bash
+kubectl get service
+```
+
 
